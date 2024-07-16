@@ -1,15 +1,15 @@
-djangorestframework==3.8.0
+djangorestframework==3.15.2
 # coreapi is an optional requirement for djangorestframework that we need for
 # authentication
 coreapi==2.3.3
 djangorestframework-gis==0.13.0
-django-debug-toolbar==1.9.1
-django-filter==1.1.0
+django-debug-toolbar==1.11.1
+django-filter==2.4.0
 django-extensions==2.1.2
 django-cors-headers==2.4.0
 django-storages==1.4.1
 oauth2client==2.0.1
-oic==0.10.0
+oic==1.2.1
 git+https://github.com/alexsdutton/django-oidc/@py3-dj1.10#egg=django-oidc
 celery[redis]==3.1.19
 django-redis==4.2.0
@@ -21,7 +21,7 @@ djangorestframework-csv==1.4.1
 grout==2.0.1
 # Dependencies for generate_training_input script
 argparse==1.2.1
-Fiona==1.6.3
+Fiona==1.9.6
 pyproj==1.9.5.1
 Rtree==0.8.2
 Shapely==1.5.13
